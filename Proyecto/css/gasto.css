@@ -1,0 +1,68 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa; /* Color de fondo */
+}
+
+/* Estilo para el contenedor del formulario */
+#formulario-gastos {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para el título del formulario */
+h2 {
+    text-align: center;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo del botón Guardar */
+    color: white; /* Color del texto */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Color de fondo del botón Guardar al pasar el cursor */
+}
+
+button[type="button"] {
+    background-color: #008CBA; /* Color de fondo del botón Volver */
+    color: white; /* Color del texto */
+}
+
+button[type="button"]:hover {
+    background-color: #0077A8; /* Color de fondo del botón Volver al pasar el cursor */
+}
